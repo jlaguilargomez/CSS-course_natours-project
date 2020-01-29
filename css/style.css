@@ -47,6 +47,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .heading-primary {
@@ -103,4 +104,31 @@ body {
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+.btn:link,
+.btn:visited {
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    font-size: 14px;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn-white {
+    background-color: white;
+    color: #777;
 }
