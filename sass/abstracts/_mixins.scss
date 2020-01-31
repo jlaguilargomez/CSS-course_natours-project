@@ -1,0 +1,9 @@
+/* Vamos a usarlo para "limpiar" los floats */
+
+@mixin clearfix {
+	&::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
