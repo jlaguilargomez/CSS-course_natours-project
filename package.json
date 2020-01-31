@@ -1,0 +1,26 @@
+{
+	"name": "natours-project-jl",
+	"version": "1.0.0",
+	"description": "Natours project from the \"Advanced CSS course\"",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "node-sass sass/main.scss css/style.css -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jlaguilargomez/natours-project-advCSS-course.git"
+	},
+	"keywords": [
+		"SASS",
+		"CSS"
+	],
+	"author": "JLA",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jlaguilargomez/natours-project-advCSS-course/issues"
+	},
+	"homepage": "https://github.com/jlaguilargomez/natours-project-advCSS-course#readme",
+	"devDependencies": {
+		"node-sass": "^4.13.1"
+	}
+}
