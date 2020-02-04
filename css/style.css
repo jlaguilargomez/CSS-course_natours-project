@@ -3,11 +3,6 @@
 /*---COLORS---*/
 /*---FONT---*/
 /*---GRID---*/
-.section-about {
-  background-color: #f7f7f7;
-  padding: 25rem 10rem;
-  margin-top: -20vh; }
-
 *,
 *::after,
 *::before {
@@ -187,6 +182,33 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
   transform: translateY(0rem); }
 
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    z-index: 5;
+    transition: all 0.1s;
+    outline-offset: 2rem; }
+    .composition__photo--p1 {
+      left: 0rem;
+      top: -2rem; }
+    .composition__photo--p2 {
+      right: 0rem;
+      top: 2rem; }
+    .composition__photo--p3 {
+      left: 20%;
+      top: 10rem; }
+    .composition__photo:hover {
+      transform: scale(1.05) translateY(-0.2rem);
+      box-shadow: 0 2.5rem 4.5rem rgba(0, 0, 0, 0.6);
+      z-index: 10;
+      outline: 1.5rem solid #55c57a; }
+  .composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.9); }
+
 /* Es una plantilla que usaremos en varias páginas, por eso lo ponemos en "layout" */
 .header {
   position: relative;
@@ -234,3 +256,8 @@ body {
     width: calc( 2 * ((100% - 3 * 4rem) / 4) + 4rem); }
   .row .col-3-of-4 {
     width: calc( 3 * ((100% - 3 * 4rem) / 4) + 2 *4rem); }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 10rem;
+  margin-top: -20vh; }

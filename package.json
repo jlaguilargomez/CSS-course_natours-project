@@ -21,6 +21,7 @@
 	},
 	"homepage": "https://github.com/jlaguilargomez/natours-project-advCSS-course#readme",
 	"devDependencies": {
-		"node-sass": "^4.13.1"
+		"node-sass": "^4.13.1",
+		"prettier": "1.19.1"
 	}
 }
