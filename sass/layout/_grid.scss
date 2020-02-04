@@ -1,6 +1,5 @@
 .row {
 	max-width: $grid-width;
-	background-color: #eee;
 	margin: 0 auto;
 
 	/* Le decimos que todos los elementos salvo el último tengan la prop "margin-bottom" */
@@ -13,7 +12,6 @@
 
 	// un selector para seleccionar todos los elementos que tengan una clase que comience por "col-"
 	[class^='col-'] {
-		background-color: orangered;
 		float: left;
 
 		&:not(:last-child) {
